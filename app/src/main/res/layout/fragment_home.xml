@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.invig.indiastatusapp.ui.fragement.HomeFragment">
+    tools:context="com.project.x.com.project.x.ui.fragement.HomeFragment">
     <RelativeLayout
         android:id="@+id/relative_layout_popular_f"
         android:layout_width="match_parent"

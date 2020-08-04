@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.invig.indiastatusapp.ui.Activities.CategoryActivity">
+    tools:context="com.project.x.com.project.x.ui.Activities.CategoryActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"

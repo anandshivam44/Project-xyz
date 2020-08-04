@@ -10,15 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f420b5d-9e4e-4468-b182-640f38e971a7" name="Default Changelist" comment="adde firebase">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/data/LoginDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/data/LoginRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/data/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/data/model/LoggedInUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/LoginActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -29,25 +21,192 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/invig/indiastatusapp/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/project/x/ExampleInstrumentedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/AllCategoryVideoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/AllCategoryVideoAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/CategoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/CategoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/CategorySelectAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/CategorySelectAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/CommentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/CommentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/IntroAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/IntroAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/LanguageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/LanguageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/LanguageSelectAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/LanguageSelectAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/PayoutAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/PayoutAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/PortraitVideoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/PortraitVideoAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/RecyclerViewMediaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/RecyclerViewMediaAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/SearchUserAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/SearchUserAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/SelectableCategoryViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/SelectableCategoryViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/SelectableLanguageViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/SelectableLanguageViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/SelectableViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/SelectableViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/SlideAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/SlideAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/StatusAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/StatusAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/SubscribeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/SubscribeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/Transactiondapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/Transactiondapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Adapters/UserAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Adapters/UserAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Provider/DownloadStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Provider/DownloadStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Provider/FavoritesStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Provider/FavoritesStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Provider/GenericFileProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Provider/GenericFileProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Provider/LanguageStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Provider/LanguageStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/Provider/PrefManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/Provider/PrefManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/api/ProgressRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/api/ProgressRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/api/apiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/api/apiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/api/apiRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/api/apiRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/config/Global.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/config/Global.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/model/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/model/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/model/ApiValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/model/ApiValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/model/DataObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/model/DataObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/model/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/model/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/model/Payout.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/model/Payout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/model/Slide.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/model/Slide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/model/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/model/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/model/StatusWhatsapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/model/StatusWhatsapp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/model/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/services/NotifFirebaseMessagingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/services/NotifFirebaseMessagingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/AllCategoryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/AllCategoryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/AllFullScreenCategoryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/AllFullScreenCategoryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/AllFullScreenFollowActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/AllFullScreenFollowActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/AllFullScreenSearchActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/AllFullScreenSearchActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/AllFullScreenUserActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/AllFullScreenUserActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/AllPortaitVideosActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/AllPortaitVideosActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/CategoryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/CategoryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/EarningActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/EarningActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/EditActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/EditActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/FullscreenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/FullscreenActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/GifActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/GifActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/ImageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/ImageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/LanguageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/LanguageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/PayoutsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/PayoutsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/PermissionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/PermissionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/PlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/PlayerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/PolicyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/PolicyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/QuoteActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/QuoteActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/RequestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/RequestActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/SearchActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/SearchActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/SettingsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/SettingsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/SlideActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/SlideActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/SupportActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/SupportActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/UploadGifActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/UploadGifActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/UploadImageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/UploadImageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/UploadQuoteActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/UploadQuoteActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/UploadVideoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/UploadVideoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/UploadYoutubeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/UploadYoutubeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/UserActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/UserActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/VideoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/VideoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/WhatsAppActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/WhatsAppActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/YoutubeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/YoutubeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/data/LoginDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/data/LoginDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/data/LoginRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/data/LoginRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/data/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/data/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/Activities/data/model/LoggedInUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/Activities/data/model/LoggedInUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/fragement/AdsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/fragement/AdsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/fragement/CategroiesFragement.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/fragement/CategroiesFragement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/fragement/DownloadsFragement.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/fragement/DownloadsFragement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/fragement/FavoritesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/fragement/FavoritesFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/fragement/FollowFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/fragement/FollowFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/fragement/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/fragement/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/fragement/PlayerFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/fragement/PlayerFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/fragement/PopularFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/fragement/PopularFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/fragement/UserFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/fragement/UserFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/view/BottomNavigationViewBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/view/BottomNavigationViewBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/view/CarouselEffectTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/view/CarouselEffectTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/view/ClickableViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/view/ClickableViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/view/OtpEditText.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/view/OtpEditText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/invig/indiastatusapp/ui/view/ScrollHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/x/ui/view/ScrollHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/initial.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/splash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/adfree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fbgc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_btn_cancel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_earning.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_facebook_btn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_gif_btn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_loading_subtitles_accent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_season_tab.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/border_ads_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/border_left.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/border_left_me.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/border_top_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/google.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gradient_dialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gradient_dialog_blue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_card_giftcard.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_categories.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_chevron_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_facebook_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_facebook_replay.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_folder_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_followers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_fullscreen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_gplay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_image_black.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_navigate_next.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_pause.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_play_ic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_replay.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_subscriptions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_update.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_user_two.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_video_library_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_view_list_black.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_whatsapp_replay.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_whatshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_whatshot_black.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/slide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_all_full_screen_category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_all_full_screen_category.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_all_full_screen_follow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_all_full_screen_follow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_all_full_screen_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_all_full_screen_search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_all_full_screen_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_all_full_screen_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_all_portait_videos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_all_portait_videos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_category.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_downloads.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_earning.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_earning.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fullscreen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fullscreen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_language.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_language.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_payouts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_payouts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_permission.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_permission.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_player.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_player.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_policy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_policy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_slide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_slide.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_whats_app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_whats_app.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_categories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_categories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_popular.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_popular.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_video.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_slide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_slide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_vp_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/language_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/recycler_view_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/update_message.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/language_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_navigation_center_fab.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/drawables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/drawables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/invig/indiastatusapp/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/project/x/ExampleUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +222,26 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Project xyz" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Project xyz" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Project xyz" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -110,7 +283,7 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -169,6 +342,30 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Project xyz [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Project xyz [signingReport]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -204,25 +401,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="738" y="278" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596381066115" />
-    <state width="1878" height="235" key="GridCell.Tab.0.bottom" timestamp="1596524924294">
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1596537738238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596524924294" />
-    <state width="1878" height="235" key="GridCell.Tab.0.center" timestamp="1596524924292">
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596537738238" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1596537738238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="235" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596524924292" />
-    <state width="1878" height="235" key="GridCell.Tab.0.left" timestamp="1596524924291">
+    <state width="1878" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596537738238" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1596537738238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="235" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596524924291" />
-    <state width="1878" height="235" key="GridCell.Tab.0.right" timestamp="1596524924292">
+    <state width="1878" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596537738238" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1596537738238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="235" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596524924292" />
-    <state x="638" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1596381043180">
+    <state width="1878" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596537738238" />
+    <state x="638" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1596533127925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="638" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596381043180" />
+    <state x="638" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596533127925" />
   </component>
 </project>

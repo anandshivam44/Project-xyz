@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryDark"
-    tools:context=".ui.Activities.PolicyActivity">
+    tools:context="com.project.x.ui.Activities.PolicyActivity">
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         app:elevation="2dp"

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.Activities.LoginActivity">
+    tools:context="com.project.x.ui.Activities.LoginActivity">
         <LinearLayout
             android:background="@drawable/comment_bg"
             android:layout_alignParentBottom="true"

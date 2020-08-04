@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#0099cc"
     xmlns:bvp="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.Activities.FullscreenActivity">
+    tools:context="com.project.x.ui.Activities.FullscreenActivity">
     <com.google.android.exoplayer2.ui.SimpleExoPlayerView
         android:background="@color/black"
         android:id="@+id/video_view"

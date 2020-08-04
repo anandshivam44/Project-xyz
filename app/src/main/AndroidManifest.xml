@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.invig.indiastatusapp">
+    package="com.project.x">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -19,7 +19,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
-        android:name=".App"
+        android:name="com.project.x.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
@@ -30,9 +30,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:replace="android:icon">
-        <activity
-            android:name=".ui.login.LoginActivity2"
-            android:label="@string/title_activity_login2"></activity>
+
 
         <meta-data
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
@@ -72,37 +70,37 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".services.NotifFirebaseMessagingService">
+        <service android:name="com.project.x.services.NotifFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
         <activity
-            android:name=".ui.Activities.SlideActivity"
+            android:name="com.project.x.ui.Activities.SlideActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.MainActivity"
+            android:name="com.project.x.ui.Activities.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.CategoryActivity"
+            android:name="com.project.x.ui.Activities.CategoryActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.VideoActivity"
+            android:name="com.project.x.ui.Activities.VideoActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.PermissionActivity"
+            android:name="com.project.x.ui.Activities.PermissionActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.UploadVideoActivity"
+            android:name="com.project.x.ui.Activities.UploadVideoActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateVisible|adjustResize" />
         <activity
-            android:name=".ui.Activities.LoginActivity"
+            android:name="com.project.x.ui.Activities.LoginActivity"
             android:theme="@style/Theme.UserDialog" />
         <activity
-            android:name=".ui.Activities.SplashActivity"
+            android:name="com.project.x.ui.Activities.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -111,86 +109,86 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.Activities.SupportActivity"
+            android:name="com.project.x.ui.Activities.SupportActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.PolicyActivity"
+            android:name="com.project.x.ui.Activities.PolicyActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.SettingsActivity"
+            android:name="com.project.x.ui.Activities.SettingsActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.SearchActivity"
+            android:name="com.project.x.ui.Activities.SearchActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.LanguageActivity"
+            android:name="com.project.x.ui.Activities.LanguageActivity"
             android:theme="@style/Theme.UserDialog" />
         <activity
-            android:name=".ui.Activities.AllCategoryActivity"
+            android:name="com.project.x.ui.Activities.AllCategoryActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.UserActivity"
+            android:name="com.project.x.ui.Activities.UserActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.EditActivity"
+            android:name="com.project.x.ui.Activities.EditActivity"
             android:theme="@style/Theme.UserDialog" />
         <activity
-            android:name=".ui.Activities.FullscreenActivity"
+            android:name="com.project.x.ui.Activities.FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.WhatsAppActivity"
+            android:name="com.project.x.ui.Activities.WhatsAppActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.ImageActivity"
+            android:name="com.project.x.ui.Activities.ImageActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.GifActivity"
+            android:name="com.project.x.ui.Activities.GifActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.QuoteActivity"
+            android:name="com.project.x.ui.Activities.QuoteActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.UploadImageActivity"
+            android:name="com.project.x.ui.Activities.UploadImageActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.UploadGifActivity"
+            android:name="com.project.x.ui.Activities.UploadGifActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.UploadQuoteActivity"
+            android:name="com.project.x.ui.Activities.UploadQuoteActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name=".ui.Activities.PayoutsActivity"
+            android:name="com.project.x.ui.Activities.PayoutsActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.EarningActivity"
+            android:name="com.project.x.ui.Activities.EarningActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.RequestActivity"
+            android:name="com.project.x.ui.Activities.RequestActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.PlayerActivity"
+            android:name="com.project.x.ui.Activities.PlayerActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.AllPortaitVideosActivity"
+            android:name="com.project.x.ui.Activities.AllPortaitVideosActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.AllFullScreenCategoryActivity"
+            android:name="com.project.x.ui.Activities.AllFullScreenCategoryActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.AllFullScreenUserActivity"
+            android:name="com.project.x.ui.Activities.AllFullScreenUserActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.AllFullScreenSearchActivity"
+            android:name="com.project.x.ui.Activities.AllFullScreenSearchActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ui.Activities.AllFullScreenFollowActivity"
+            android:name="com.project.x.ui.Activities.AllFullScreenFollowActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ui.Activities.YoutubeActivity" />
+        <activity android:name="com.project.x.ui.Activities.YoutubeActivity" />
         <activity
-            android:name=".ui.Activities.UploadYoutubeActivity"
+            android:name="com.project.x.ui.Activities.UploadYoutubeActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />
     </application>
