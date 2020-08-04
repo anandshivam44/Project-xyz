@@ -121,7 +121,6 @@
             </RelativeLayout>
         </LinearLayout>
         <LinearLayout
-            android:visibility="gone"
             android:background="@drawable/gradient_dialog"
             android:gravity="center"
             android:orientation="vertical"
@@ -148,7 +147,6 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="@string/welcome_login"
-                android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -162,7 +160,6 @@
             android:layout_height="wrap_content">
             <RelativeLayout
                 android:id="@+id/relative_layout_reference_coode"
-                android:visibility="gone"
                 android:gravity="left|center"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
@@ -270,7 +267,6 @@
 
                 </RelativeLayout>
                 <RelativeLayout
-                    android:visibility="gone"
                     android:elevation="2dp"
                     android:clickable="true"
                     android:background="?attr/selectableItemBackground"
@@ -308,7 +304,6 @@
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/linear_layout_otp_confirm_login_activity"
-                android:visibility="gone"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:orientation="vertical"
@@ -369,7 +364,6 @@
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/linear_layout_phone_input_login_activity"
-                android:visibility="gone"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:orientation="vertical"
@@ -451,7 +445,6 @@
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/linear_layout_name_input_login_activity"
-                android:visibility="gone"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:orientation="vertical"
@@ -521,7 +514,6 @@
             </LinearLayout>
 
             <com.google.android.gms.common.SignInButton
-                android:visibility="gone"
                 android:layout_above="@+id/sign_in_button_facebook"
                 android:id="@+id/sign_in_button_google"
                 android:layout_width="match_parent"

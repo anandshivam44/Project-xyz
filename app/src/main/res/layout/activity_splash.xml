@@ -37,6 +37,6 @@
         android:layout_centerHorizontal="true"
         app:color_array="@array/dot_colors"
         app:dot_radius="4dp"
-        app:number_of_dots="4" />
+        app:number_of_dots="6" />
 
 </RelativeLayout>

@@ -28,6 +28,7 @@ import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.auth.api.signin.GoogleSignInResult;
 import com.google.android.gms.common.ConnectionResult;
@@ -66,7 +67,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     private LoginButton sign_in_button_facebook;
     private SignInButton sign_in_button_google;
 
-    private GoogleApiClient mGoogleApiClient;
+    private GoogleSignInClient mGoogleApiClient;
     private CallbackManager callbackManager;
 
     private ProgressDialog register_progress;
@@ -245,10 +246,10 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 .requestEmail()
                 .build();
 
-        mGoogleApiClient = new GoogleApiClient.Builder(this)
-                .enableAutoManage(this, this)
-                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
-                .build();
+//        mGoogleApiClient = new GoogleApiClient.Builder(this)
+//                .enableAutoManage(this, this)
+//                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
+//                .build();
     }
     public void FaceookSignIn(){
 
@@ -284,8 +285,8 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         });
     }
     private void signIn() {
-        Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
-        startActivityForResult(signInIntent, RC_SIGN_IN);
+//        Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
+//        startActivityForResult(signInIntent, RC_SIGN_IN);
     }
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
@@ -303,7 +304,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
             }
 
             signUp(acct.getId().toString(),acct.getId(), acct.getDisplayName().toString(),"google",photo);
-            Auth.GoogleSignInApi.signOut(mGoogleApiClient);
+//            Auth.GoogleSignInApi.signOut(mGoogleApiClient);
         } else {
         }
     }
