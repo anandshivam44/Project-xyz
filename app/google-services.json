@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "362654748628",
+    "firebase_url": "https://invig-cf7e5.firebaseio.com",
+    "project_id": "invig-cf7e5",
+    "storage_bucket": "invig-cf7e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362654748628:android:f60a346972f7afb4e71041",
+        "android_client_info": {
+          "package_name": "com.invig.indiastatusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362654748628-7degsj203p0rhuuvd41oai481lckg0k3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.invig.indiastatusapp",
+            "certificate_hash": "e1e98a46dd0a9399b538f8d55cb86a60df529ed4"
+          }
+        },
+        {
+          "client_id": "362654748628-j4s3bja0rveh2nickjqapm7pda4fu2hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpmINN5G4Rt8OwJ9Ht-6-_pAKa7prMz4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362654748628-j4s3bja0rveh2nickjqapm7pda4fu2hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
