@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "581380122779",
-    "firebase_url": "https://project-x-ce741.firebaseio.com",
-    "project_id": "project-x-ce741",
-    "storage_bucket": "project-x-ce741.appspot.com"
+    "project_number": "951514290327",
+    "firebase_url": "https://fir-auth-quickstart-10ae8.firebaseio.com",
+    "project_id": "fir-auth-quickstart-10ae8",
+    "storage_bucket": "fir-auth-quickstart-10ae8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:581380122779:android:0bb7259c7b3d310da23e3e",
+        "mobilesdk_app_id": "1:951514290327:android:18812e029bbc949fd1b1d2",
         "android_client_info": {
-          "package_name": "com.invig.indiastatusapp"
+          "package_name": "com.project.x"
         }
       },
       "oauth_client": [
         {
-          "client_id": "581380122779-78s5t112kidhd7r5n6k8t7hhj66j2pmq.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.invig.indiastatusapp",
-            "certificate_hash": "f4a05a2d5cf41397b82e6e8e82c858784d465309"
-          }
-        },
-        {
-          "client_id": "581380122779-fe1mn5593tnulftnotrblk7t1lf5qna1.apps.googleusercontent.com",
+          "client_id": "951514290327-9shg9oqd0istnh215imabt7ei1jegoje.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBSgJAie7Q8af5Dq5FAS-GGTqWBXqV5UPg"
+          "current_key": "AIzaSyA9nX_Ft5VgTmcUfZULxUiWcmrgRh1NDDs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "581380122779-fe1mn5593tnulftnotrblk7t1lf5qna1.apps.googleusercontent.com",
+              "client_id": "951514290327-9shg9oqd0istnh215imabt7ei1jegoje.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

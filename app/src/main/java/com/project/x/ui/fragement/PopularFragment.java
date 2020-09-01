@@ -140,13 +140,13 @@ public class PopularFragment extends Fragment {
     private void initView() {
         PrefManager prefManager= new PrefManager(getActivity().getApplicationContext());
 
-        if (!prefManager.getString("ADMIN_NATIVE_TYPE").equals("FALSE")){
-            native_ads_enabled=true;
-            lines_beetween_ads=Integer.parseInt(prefManager.getString("ADMIN_NATIVE_LINES"));
-        }
-        if (prefManager.getString("SUBSCRIBED").equals("TRUE")) {
-            native_ads_enabled=false;
-        }
+//        if (!prefManager.getString("ADMIN_NATIVE_TYPE").equals("FALSE")){
+//            native_ads_enabled=true;
+//            lines_beetween_ads=Integer.parseInt(prefManager.getString("ADMIN_NATIVE_LINES"));
+//        }
+//        if (prefManager.getString("SUBSCRIBED").equals("TRUE")) {
+//            native_ads_enabled=false;
+//        }
 
         this.relative_layout_load_more=(RelativeLayout) view.findViewById(R.id.relative_layout_load_more);
         this.button_try_again =(Button) view.findViewById(R.id.button_try_again);

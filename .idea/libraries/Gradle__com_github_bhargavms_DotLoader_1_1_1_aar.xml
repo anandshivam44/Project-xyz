@@ -1,8 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.bhargavms:DotLoader:1.1.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e50b44939ba5cc5b4c9ce4be1dc56a0/jetified-DotLoader-1.1.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7e50b44939ba5cc5b4c9ce4be1dc56a0/jetified-DotLoader-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99c5507efe3777882a8ffe652b77cfe2/jetified-DotLoader-1.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99c5507efe3777882a8ffe652b77cfe2/jetified-DotLoader-1.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99c5507efe3777882a8ffe652b77cfe2/jetified-DotLoader-1.1.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

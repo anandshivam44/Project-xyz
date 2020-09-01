@@ -184,10 +184,10 @@ public class FollowFragment extends Fragment {
 
     }
     public void initView(){
-        if (!prefManager.getString("ADMIN_NATIVE_TYPE").equals("FALSE")){
-            native_ads_enabled=true;
-            lines_beetween_ads=Integer.parseInt(prefManager.getString("ADMIN_NATIVE_LINES"));
-        }
+//        if (!prefManager.getString("ADMIN_NATIVE_TYPE").equals("FALSE")){
+//            native_ads_enabled=true;
+//            lines_beetween_ads=Integer.parseInt(prefManager.getString("ADMIN_NATIVE_LINES"));
+//        }
         PrefManager prefManager= new PrefManager(getActivity().getApplicationContext());
         if (prefManager.getString("SUBSCRIBED").equals("TRUE")) {
             native_ads_enabled=false;
